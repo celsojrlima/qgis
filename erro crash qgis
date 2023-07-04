@@ -1,0 +1,60 @@
+Crash ID: 3801195e1301e40a0c57fe421378dcfb82a7ed1c
+
+
+Stack Trace
+
+
+QgsProcessingDxfLayersWidget::setProject :
+QgsEmbeddedSymbolRendererWidget::setContext :
+QgsRendererPropertiesDialog::setContext :
+QgsLayerStylingWidget::updateCurrentWidgetLayer :
+QObject::qt_static_metacall :
+QListWidgetItem::`default constructor closure' :
+QObject::qt_static_metacall :
+QItemSelectionModel::setCurrentIndex :
+QListWidget::setCurrentRow :
+QgsLayerStylingWidget::setLayer :
+QObject::qt_static_metacall :
+QgsMapLayerComboBox::layerChanged :
+QObject::qt_static_metacall :
+QAbstractItemModel::endInsertRows :
+QSortFilterProxyModel::insertRows :
+QSortFilterProxyModel::sortRoleChanged :
+QSortFilterProxyModel::qt_static_metacall :
+QObject::qt_static_metacall :
+QAbstractItemModel::endInsertRows :
+QgsMapLayerModel::addLayers :
+QObject::qt_static_metacall :
+QgsProject::layersAdded :
+QObject::qt_static_metacall :
+QgsMapLayerStore::layersAdded :
+QgsMapLayerStore::addMapLayers :
+QgsProject::addMapLayers :
+QgsProject::addLayer :
+QgsProject::_getMapLayers :
+QgsProject::readProjectFile :
+QgsProject::unzip :
+QgsProject::read :
+QgisApp::addProject :
+QgisApp::openProject :
+main :
+BaseThreadInitThunk :
+RtlUserThreadStart :
+
+
+
+
+QGIS Info
+QGIS Version: 3.20.3-Odense
+QGIS code revision: 495fbaec
+Compiled against Qt: 5.15.2
+Running against Qt: 5.15.2
+Compiled against GDAL: 3.3.1
+Running against GDAL: 3.3.1
+
+
+
+System Info
+CPU Type: x86_64
+Kernel Type: winnt
+Kernel Version: 10.0.19045
